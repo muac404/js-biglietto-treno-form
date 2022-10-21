@@ -1,13 +1,20 @@
+
+
+//CHIEDO ALL'UTENTE IL SUO NOME E COGNOME
+const nomeCognome = document.getElementById("nome-cognome").value;
+console.log(nomeCognome)
 //CHIEDO ALL'UTENTE I KM CHE VUOLE PERCORRERE
 const distance = document.getElementById("distance").value;
+console.log(distance)
 //CHIEDO ALL'UTENTE LA SUA ETA'
-const name = document.getElementById("nome-cognome").value;
+let age = document.getElementById("age-range").value;
+
+console.log(age)
 //CALCOLO IL PREZZO DEL BIGLIETTO INTERO (0.21 EURO AL KM)
 
 
 let price = distance * 0.21;
 let message = "Prezzo del biglietto intero";
-
 
 
 
