@@ -16,6 +16,8 @@ console.log(age)
 let price = distance * 0.21;
 let message = "Prezzo del biglietto intero";
 
+console.log(price)
+
 
 
 if (age < 18) {
