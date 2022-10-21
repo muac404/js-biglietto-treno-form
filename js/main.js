@@ -20,6 +20,7 @@ console.log(price)
 
 
 
+
 if (age < 18) {
     
     price = price - (price * 0.2)
