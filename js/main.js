@@ -1,19 +1,41 @@
 
 
-//CHIEDO ALL'UTENTE IL SUO NOME E COGNOME
-const nomeCognome = document.getElementById("nome-cognome").value;
-console.log(nomeCognome)
-//CHIEDO ALL'UTENTE I KM CHE VUOLE PERCORRERE
-const distance = document.getElementById("distance").value;
-console.log(distance)
-//CHIEDO ALL'UTENTE LA SUA ETA'
+// //CHIEDO ALL'UTENTE IL SUO NOME E COGNOME
+// const nomeCognome = document.getElementById("nome-cognome").value;
+// console.log(nomeCognome)
+// //CHIEDO ALL'UTENTE I KM CHE VUOLE PERCORRERE
+// const distance = document.getElementById("distance").value;
+// console.log(distance)
+// //CHIEDO ALL'UTENTE LA SUA ETA'
+// let age = document.getElementById("age-range").value;
+
+
+// //CALCOLO IL PREZZO DEL BIGLIETTO INTERO (0.21 EURO AL KM)
+
+
+
+
+
+
+
+
+
+
+let nomeCognome = document.getElementById("nome-cognome")
+
 let age = document.getElementById("age-range").value;
 
-console.log(age)
-//CALCOLO IL PREZZO DEL BIGLIETTO INTERO (0.21 EURO AL KM)
-
+const generateBtn = document.getElementById("btn");
+generateBtn.addEventListener("click", function(){
+    let distance = document.getElementById("distance")
+    
+})
 
 let price = distance * 0.21;
+console.log(price)
+
+
+
 let message = "Prezzo del biglietto intero";
 
 console.log(price)
